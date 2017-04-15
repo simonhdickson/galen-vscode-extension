@@ -1,0 +1,35 @@
+{
+    "name": "galen",
+    "displayName": "Galen",
+    "description": "Galen syntax support for VSCode",
+    "version": "0.1.0",
+    "publisher": "simonhdickson",
+    "engines": {
+        "vscode": "^1.11.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "galen",
+                "aliases": [
+                    "Galen 2",
+                    "galen"
+                ],
+                "extensions": [
+                    ".gspec"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "galen",
+                "scopeName": "text.galen",
+                "path": "./syntaxes/galen.tmLanguage"
+            }
+        ]
+    }
+}
