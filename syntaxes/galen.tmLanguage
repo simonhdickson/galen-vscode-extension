@@ -170,7 +170,7 @@
 						</dict>
 					</dict>
 					<key>match</key>
-					<string>^\s*(@import|@on|@script)\s(.*)</string>
+					<string>^\s*(@import|@on|@script|@lib)\s(.*)</string>
 					<key>name</key>
 					<string>keyword.operator.galen</string>
 				</dict>
